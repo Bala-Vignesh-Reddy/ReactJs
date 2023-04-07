@@ -1,18 +1,18 @@
 About ReactJs Course and Course Outline
 
 General Structure
-1. Basics and Foundation of React
+1. Basics and Foundation of React:
   Components and Building UIs
   Working with Events and Data: "props" and state"
   Styling React Apps and Components
   Intro to "React Hooks"
 
-2. Advanced Concepts
+2. Advanced Concepts:
   Side Effects, "Refs" and More React Hooks
   React's Context API and Redux(3 party api)
   Forms, Http Requests and "Custom Hooks"
   Routing, Depolyment, NextJs and More
 
-3. Summaries and Refreshers
+3. Summaries and Refreshers:
   Javascript Refresher
   ReactJs Summary  
