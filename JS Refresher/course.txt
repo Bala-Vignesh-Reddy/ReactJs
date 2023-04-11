@@ -14,5 +14,5 @@ General Structure
   Routing, Depolyment, NextJs and More
 
 3. Summaries and Refreshers:
-  Javascript Refresher
-  ReactJs Summary  
+  ->Javascript Refresher
+  ->ReactJs Summary  
