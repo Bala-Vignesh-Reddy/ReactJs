@@ -1,6 +1,6 @@
 function ExpenseItem() {
     return (
-        <h2>First Component</h2>
+//         <h2>First Component</h2>
     );
 }
 
