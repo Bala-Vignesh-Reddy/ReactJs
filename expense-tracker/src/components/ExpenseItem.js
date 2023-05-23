@@ -2,9 +2,9 @@ import './ExpenseItem.css';
 
 function ExpenseItem() {
     const expenseDate = new Date(2023, 3, 12);
-    const expenseTitle = 'Books';
-    const expenseAmount = 1000;
-
+    const expenseTitle = 'Salary';
+    const expenseAmount = 100000;
+    
     return (
         <div className='expense-item'>
             <div>{expenseDate.toISOString}</div>
