@@ -4,8 +4,8 @@ import ExpenseItem from "./components/ExpenseItem";
 function App() {
     return (
       <div>
-        <h2>Items</h2>
-        <ExpenseItem></ExpenseItem>
+//         <h2>Items</h2>
+//         <ExpenseItem></ExpenseItem>
       </div>
     );
   }
