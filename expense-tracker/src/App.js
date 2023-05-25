@@ -1,4 +1,3 @@
-// Still work in progess...
 import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
@@ -10,4 +9,3 @@ function App() {
     );
   }
 export default App;
-  
