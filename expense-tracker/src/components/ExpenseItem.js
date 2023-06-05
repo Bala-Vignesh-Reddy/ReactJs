@@ -1,4 +1,6 @@
 import './ExpenseItem.css';
+import ExpenseDate from './ExpenseDate';
+import Card from './Card';
 
 function ExpenseItem(props) {
 
@@ -7,22 +9,16 @@ function ExpenseItem(props) {
   // const expenseTitle = 'Salary';
   // const expenseAmount = 100000;
 
-  const month = props.date.toLocaleString('en-US', { month: 'long' });
-  const day = props.date.toLocaleString('en-US', { year: '2-digit' });
-  const year = props.date.getFullYear(); 
-
+  
   return (
-    <div className='expense-item'>
-      <div>
-        <div>{day}</div>
-        <div>{month}</div>
-        <div>{year}</div>
-      </div>
-      <div className='expense-item__description'>
-        <h2>{props.title}</h2>
+    <Card className='expense-item'>
+        {/* <ExpenseDate></ExpenseDate> */}
+        <ExpenseDate date={props.date}/>
+        <div className='expense-item__description'>
+          <h2>{props.title}</h2>
         <div className='expense-item__price'>Rs {props.amount}</div>
       </div>
-    </div>
+    </Card>
   );
 }
 
