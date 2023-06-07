@@ -27,6 +27,7 @@ function Expenses(props) {
   return (
     <Card className='expenses'>
         {/* <ExpenseItem title='Books'></ExpenseItem> This is one way by which we can use Props */}
+
         <ExpenseItem
           title={expenses[0].title}
           amount={expenses[0].amount}
