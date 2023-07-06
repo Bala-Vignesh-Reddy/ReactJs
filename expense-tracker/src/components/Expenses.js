@@ -22,6 +22,12 @@ function Expenses(props) {
       amount: 2000,
       date: new Date(2023, 6, 7),
     },
+	  {
+		  id: 4,
+		  title: "Recharge",
+		  amount: 499,
+		  date: new Date(2023, 7, 6),
+	  },
   ];
 
   return (
